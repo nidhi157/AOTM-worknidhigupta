@@ -1,11 +1,334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aotm project</title>
+<title>India Commonwealth 2026</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    color:#172033;
+    background:#f5f6f8;
+}
+
+/* NAVBAR */
+
+header{
+    background:#071638;
+    padding:18px 8%;
+    position:sticky;
+    top:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ff671f;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#ff671f;
+}
+
+
+/* HERO */
+
+.hero{
+    min-height:520px;
+    padding:80px 8%;
+    background:linear-gradient(120deg,#061333,#17427e);
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.tag{
+    color:white;
+    font-size:12px;
+    margin-bottom:20px;
+}
+
+h1{
+    color:white;
+    font-size:60px;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+h1 span{
+    color:#ff671f;
+}
+
+.hero p{
+    color:#c8cfdd;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    background:#ff671f;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-size:13px;
+}
+
+}
+
+.orange{
+    height:33.33%;
+    background:#ff671f;
+}
+
+.white{
+    height:33.33%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.green{
+    height:33.33%;
+    background:#08783f;
+}
+
+
+
+/* SECTIONS */
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.title h2{
+    color:#071638;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.title p{
+    color:#687386;
+    font-size:14px;
+}
+
+
+/* ABOUT */
+
+.about{
+    background:white;
+}
+
+.about-text{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+}
+
+.about-text p{
+    color:#687386;
+    line-height:1.8;
+    font-size:15px;
+}
+
+
+}
+
+.card{
+background:white;
+padding:30px;
+flex:1;
+text-align:center;
+border-radius:10px;
+box-shadow:0 5px 20px #0001;
+}
+
+.card h3{
+ color:#071638;
+ margin:12px 0;
+}
+
+.card p{
+color:#687386;
+font-size:13px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+background:#071638;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+footer p{
+color:#aeb7ca;
+font-size:12px;
+margin-top:8px;
+}
+
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+    nav ul{
+        display:none;
+    }
+
+    .hero{
+        text-align:center;
+        justify-content:center;
+    }
+
+    h1{
+        font-size:45px;
+    }
+
+    .flag{
+        display:none;
+    }
+
+    .cards{
+        flex-direction:column;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- NAVBAR -->
 
 <header>
-this side is under construction
+
+<nav>
+<div class="logo">
+INDIA <span>2026</span>
+</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#achievements">Achievements</a></li>
+</ul>
+
+</nav>
+
 </header>
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<div class="tag">
+🇮🇳 INDIA • COMMONWEALTH GAMES 2026
+</div>
+
+<h1>
+INDIA IN
+<span>COMMONWEALTH</span>
+            2026
+        </h1>
+
+<p>
+Celebrating India's athletes, sporting spirit
+and journey on the Commonwealth stage.
+</p>
+
+</div>
+
+    <div class="flag">
+
+        <div class="orange"></div>
+
+        <div class="white">
+            <div class="chakra">☸</div>
+        </div>
+
+        <div class="green"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+<div class="title">
+<h2>India's Commonwealth Journey</h2>
+
+
+    </div>
+
+    
+
+</section>
+
+
+
+
+       
+
+</footer>
+
+
+</body>
+</html>
